@@ -19,3 +19,16 @@ Latest version of R on Debian
 1. sudo apt-get install gdebi-core
 2. wget https://download2.rstudio.org/rstudio-server-stretch-1.1.463-amd64.deb
 3. sudo gdebi rstudio-server-stretch-1.1.463-amd64.deb
+
+## enable port 8787 on gcp
+
+1. create a fire wall 0.0.0.0/0 for TCP 8787
+2. apply to all instances or pick a specific instance - which is the name of the instance 
+
+## create a user 
+1. sudo adduser "rserver"
+2. passwd rserver 
+3. sudo usermod -aG sudo rserver
+
+## give access to the home dir
+1.  sudo chmod -R 777 /home 
