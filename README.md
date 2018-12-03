@@ -1,13 +1,12 @@
-# setupRstudio
-how to set up rstudio on gcp
+# how to set up rstudio on gcp
 
-update source list
+## update source list
 
 ```
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
 echo "deb http://cran.rstudio.com/bin/linux/debian stretch-cran34/" | sudo tee -a /etc/apt/sources.list
 ```
-Latest version of R on Debian
+## Latest version of R on Debian
 (https://www.linode.com/docs/development/r/how-to-install-r-on-ubuntu-and-debian/)
 
 ```
