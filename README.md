@@ -40,3 +40,8 @@ sudo usermod -aG sudo rserver
 ```
 sudo chmod -R 777 /home 
 ```
+## needed for many packages 
+
+```
+sudo apt-get install -y libxml2-dev libcurl4-openssl-dev libssl-dev
+```
